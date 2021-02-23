@@ -1,2 +1,2 @@
 # CB_Bootcamp_Submissions
-Assignment Submissions by Diwakar Sharma
+Web Dev Assignment Submissions by Diwakar Sharma
