@@ -1,0 +1,147 @@
+/* nav {
+    position:sticky;
+    right:0;
+    max-width: 30vw;
+    background-color: blanchedalmond;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+nav  {
+    position:fixed;
+    left:0;
+    top:0;
+    width: 27vw;
+    height: 100vh;
+    padding-right:20px;
+   
+    
+}
+  nav ul {
+    display: flex; 
+    flex-direction:column; 
+    flex-wrap:wrap;
+    justify-content:space-between;
+    align-items: stretch;
+  }
+
+li {
+    list-style: none;
+    padding:10px;
+    margin:5px;
+    /* display:inline-block; */
+    /* margin:auto; */
+    /* margin: px; */
+}
+
+
+
+.photo {
+    /* display:block; */
+    /* padding-left:20px ; */
+    background-color: blanchedalmond;
+    height:20vw;
+    width:20vw;
+    background-image: url("./media/dsh9.jpg");
+    background-size:100% 100%;
+    border-radius: 50%;
+    
+}
+
+
+.btn-nfo {
+    background-color: rgb(99, 242, 240);
+}
+
+.section {
+background-color:rgb(201, 237, 248);
+margin-left:27vw;
+}
+.intro {
+padding:20px;
+background-color: rgb(218, 255, 254);
+}
+
+.intro h1:nth-of-type(1){
+    display:inline-block;
+color: rgb(0, 204, 255);
+margin-left: 20vw;
+/* background-color: darkgray; */
+transform: rotatez(15deg);
+
+}
+.intro h1:nth-of-type(2){
+    display:inline-block;
+color: rgb(0, 204, 255);
+margin-left: 30vw;
+/* background-color: darkgray; */
+transform: rotatez(-15deg);
+
+}
+.intro h1:nth-of-type(3){
+    display:inline-block;
+color: rgb(0, 204, 255);
+margin-left: 30vw;
+margin-top: 8vh;
+/* background-color: darkgray; */
+transform: rotatez(-35deg);
+
+}
+.intro h1:nth-of-type(4){
+    display:inline-block;
+color: rgb(0, 204, 255);
+margin-left: 30%vw;
+margin-bottom: 10vh;
+/* background-color: darkgray; */
+transform: rotatez(-35deg);
+
+}
+
+.intro h1:hover {
+    transform:rotate3d(1, 1, 1, 45deg);
+    transform:scale(1.5);
+    cursor: pointer;
+}
+.card-header {
+    background-color:rgb(151, 199, 198);
+    color:#fff;
+}
+
+/* @media (max-width:768px)
+{
+   .nav{
+       position:static;
+       width :100vw;
+       background-color: #7a7e81;
+       
+   }
+   .nav-ul {
+    background-color:rgb(16, 19, 19);
+       flex-direction:row;
+   }
+} */
+
+@media screen and (max-width: 992px) { 
+    nav{
+        position:static;
+        width :100vw;
+        height:auto;
+        /* background-color: #7a7e81; */
+        
+    }
+    
+    .section {
+        margin:0px;
+    }
+    .photo {
+        margin-left: 30vw;
+        height:
+    }
+    li h1 {
+        text-align: center;
+    }
+  } 
+   
