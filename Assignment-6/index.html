@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <h1> My ToDo App</h1>
+    <div class="main" >
+        <div class="clip">
+            <img src="media/clip2.jpg">
+            </div>
+    <section>
+        <h3>Add Todos...</h3>
+        <input type="text" id="inp_title" placeholder="Title">
+
+        <button id="addTodo">Add</button>
+        <hr>
+
+        <ul id="list">
+            <li id="lst0" class="invi"><span id="title">Go to Gym</span>
+                <div class="box">
+
+                    <button class="up">
+                        <span>
+                            <i class="fa fa-arrow-circle-up"></i>
+                       
+                        </span>
+                    </button>
+
+                    <button class="down">
+                        <span>
+                        <i class="fa fa-arrow-circle-down"></i>
+                        </span>
+                    </button>
+                    <button class="edit">
+                        <span>
+                        <i class="fa fa-edit"></i></button>
+                        </span>
+                    <button class="delete">
+                        <span>
+                        <i class="fa fa-trash"></i>
+                        </span>
+                        
+                    </button>
+                </div>
+            </li>
+        </ul>
+
+    </section>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

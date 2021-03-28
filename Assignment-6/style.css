@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  :root {
+    --purple:#c334eb ;
+    --white: #ffffff;
+  }
+
+
+  h1{
+      margin: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  h3{
+      color: rgb(145, 145, 145);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  hr {
+      margin-top: 2vh;
+      border-radius: 10%;
+      border-top:2px solid gray;
+
+  }
+  input{
+    border:2px solid var(--purple);
+    height:5vh;
+  }
+  #inp_title{
+      width:50%;
+      margin:10px;
+      padding:5px;
+      font-size: 1.1rem;
+
+  }
+  
+  #addTodo{
+    background-color: var(--purple);
+    
+   
+    padding:8px;
+    font-size: 1.1rem;
+    /* padding:2vh; */
+    /* height:5vh; */
+
+    color:var(--white);
+    border-radius: 20%;
+    border:2px solid gray;
+
+  }
+  .main {
+    position: static;
+    margin-top:20px;
+      }
+  section {
+    /* display:inline-block; */
+    width: 80vw; 
+    border: 2px solid #ccc;
+    border-radius: 2%;
+    /* margin: 5vh auto ; */
+    padding:10px;
+    position:absolute;
+    top:10vh;
+    right:8vw;
+  }
+
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    border: 1px solid gray;
+    margin:2px;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: #fff;
+    cursor: pointer;
+    background-color: var(--purple);
+  }
+  
+  .box{
+      
+      float: right;
+
+  }
+  .invi {
+      display:none;
+  }
+  svg {
+      height:32px;
+      width:32px;
+      background-color: #fff;
+
+      
+  }
+  li button {
+    /* background-color: var(--purple); */
+    border: 0px;
+   
+    margin-right:10px;
+  }
+  
+li button span {
+  font-size: 30px;
+background-color: var(--purple);
+
+}
+.fa {
+  color:#fff;
+}
+li .up span {
+  font-size: 33px;
+}
+li span {
+  color:#fff;
+  font-size: 33px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+.ok {
+  background-color: var(--purple);
+    padding:8px;
+    font-size: 1.1rem;
+    /* padding:2vh; */
+    /* height:5vh; */
+
+    color:var(--white);
+    border-radius: 20%;
+    border:2px solid gray;
+}
+.editdiv {
+  display: inline;
+}
+
+.clip {
+  margin-top: 20px;
+  width:10vw;
+  height:70px;
+  display:inline-block;
+  background-color: aquamarine;
+  background-image:url("./media/clip.jpg");
+
+}
+.clip img {
+  display:inline-block;
+  width:10vw;
+  
+}
+
